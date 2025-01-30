@@ -5,6 +5,14 @@ public class ProcessoSeletivo {
         selecaoCandidatos();
     }
 
+    static void imprimirCandidatos() {
+        String[] candidatos = { "FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO", "PEDRO", "CAWAN", "LAURA", "RODRIGO",
+                "VANIA" };
+        for (String candidato : candidatos) {
+            System.out.println(candidato);
+        }
+    }
+
     static void selecaoCandidatos() {
         String[] candidatos = { "FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO", "PEDRO", "CAWAN", "LAURA", "RODRIGO",
                 "VANIA" };
